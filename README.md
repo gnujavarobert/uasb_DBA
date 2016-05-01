@@ -2,9 +2,10 @@
 
 DIFERENCIAS
 
-Realizar backups con la opción -a y -v, explicar la diferencia.
+Realizar backups con la opci�n -a y -v, explicar la diferencia.
 
 -a Hace un volcado solo de los datos y no del esquema.
+
 -v Hace un volcado estructurado de forma detallada, y nos imprime los mensajes del volcado de cada objeto (tabla). 
 
 #PRACTICA 
