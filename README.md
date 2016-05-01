@@ -8,6 +8,8 @@ Realizar backups con la opciï¿½n -a y -v, explicar la diferencia.
 
 -v Hace un volcado estructurado de forma detallada, y nos imprime los mensajes del volcado de cada objeto (tabla). 
 
+______________________________________________________________________________________________________________
+
 #PRACTICA 
 ##ADMINSTRACIÓN DE BASE DE DATOS CON POSGRESQL.
 
