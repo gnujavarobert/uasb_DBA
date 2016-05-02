@@ -1,6 +1,6 @@
 #RESPUESTAS A LAS CONSULTAS
 
-#DIFERENCIAS
+#1. DIFERENCIAS
 
 Realizar backups con la opcion -a y -v, explicar la diferencia.
 
@@ -8,7 +8,7 @@ Realizar backups con la opcion -a y -v, explicar la diferencia.
 
 -v Hace un volcado estructurado de forma detallada, y nos imprime los mensajes del volcado de cada objeto (tabla). 
 
-#SCRIPT - BACKUPS
+#2. SCRIPT - BACKUPS
 
 Utilizar las herramientas .pgpass/cron para construir backups automatizados
 
