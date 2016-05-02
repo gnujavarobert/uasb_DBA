@@ -1,6 +1,6 @@
 #RESPUESTAS A LAS CONSULTAS
 
-DIFERENCIAS
+#DIFERENCIAS
 
 Realizar backups con la opcion -a y -v, explicar la diferencia.
 
@@ -8,7 +8,7 @@ Realizar backups con la opcion -a y -v, explicar la diferencia.
 
 -v Hace un volcado estructurado de forma detallada, y nos imprime los mensajes del volcado de cada objeto (tabla). 
 
-SCRIPT - BACKUPS
+#SCRIPT - BACKUPS
 
 Utilizar las herramientas .pgpass/cron para construir backups automatizados
 
@@ -18,7 +18,7 @@ Acontinuacion se explica su funcionamiento:
 
 Se debe crear el fichero ".pgpass", en la raiz de nuestro usuario con los permisos correspondientes y lugo se debe insertar lo siguiente:
 
-servidor:puerto:base_datos:usuario:contraseña
+servidor:puerto:base_datos:usuario:contrasena
 
 Ahora automatizamos con contrab
 
