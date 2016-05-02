@@ -2,11 +2,33 @@
 
 DIFERENCIAS
 
-Realizar backups con la opci�n -a y -v, explicar la diferencia.
+Realizar backups con la opcion -a y -v, explicar la diferencia.
 
 -a Hace un volcado solo de los datos y no del esquema.
 
 -v Hace un volcado estructurado de forma detallada, y nos imprime los mensajes del volcado de cada objeto (tabla). 
+
+SCRIPT - BACKUPS
+
+Utilizar las herramientas .pgpass/cron para construir backups automatizados
+
+En este punto se ha elaborado un script que nos permite realizar dicha tarea.
+
+Acontinuación se explica su funcionamiento:
+
+Se debe crear el fichero ".pgpass", en la raíz de nuestro usuario con los permisos correspondientes y lugo se debe insertar lo siguiente:
+
+servidor:puerto:base_datos:usuario:contraseña
+
+Ahora automatizamos con contrab
+
+Para esto creamos un script, y programamos para que se ejecute periodicamente en cron.
+
+Ahora accedemos a crontab (situado en /etc) y agregamos una línea:
+
+0 23 * * * root /home/tobe/uasb_DBA/automated_backups.sh
+
+esto hace que se ejecute cada día a las 23:00, y cree un backup automaticamente
 
 ______________________________________________________________________________________________________________
 
