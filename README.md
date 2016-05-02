@@ -24,7 +24,7 @@ Ahora automatizamos con contrab
 
 Para esto creamos un script, y programamos para que se ejecute periodicamente en cron.
 
-Ahora accedemos a crontab (situado en /etc) y agregamos una línea:
+Ahora accedemos a crontab (situado en /etc) y agregamos una l&iacutenea:
 
 0 23 * * * root /home/tobe/uasb_DBA/automated_backups.sh
 
