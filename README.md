@@ -14,9 +14,9 @@ Utilizar las herramientas .pgpass/cron para construir backups automatizados
 
 En este punto se ha elaborado un script que nos permite realizar dicha tarea.
 
-Acontinuación se explica su funcionamiento:
+Acontinuacion se explica su funcionamiento:
 
-Se debe crear el fichero ".pgpass", en la raíz de nuestro usuario con los permisos correspondientes y lugo se debe insertar lo siguiente:
+Se debe crear el fichero ".pgpass", en la raiz de nuestro usuario con los permisos correspondientes y lugo se debe insertar lo siguiente:
 
 servidor:puerto:base_datos:usuario:contraseña
 
@@ -24,11 +24,11 @@ Ahora automatizamos con contrab
 
 Para esto creamos un script, y programamos para que se ejecute periodicamente en cron.
 
-Ahora accedemos a crontab (situado en /etc) y agregamos una l�nea:
+Ahora accedemos a crontab (situado en /etc) y agregamos una linea:
 
 0 23 * * * root /home/tobe/uasb_DBA/automated_backups.sh
 
-esto hace que se ejecute cada día a las 23:00, y cree un backup automaticamente
+esto hace que se ejecute cada dia a las 23:00, y cree un backup automaticamente
 
 ______________________________________________________________________________________________________________
 
